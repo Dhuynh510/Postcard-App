@@ -25,16 +25,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func sendMailButtonPr .essed(sender: UIButton) {
+    @IBAction func sendMailButtonPressed(sender: UIButton) {
        //Adding a Comment here to test commits
        messageLabel.hidden = false
        messageLabel.text = enterMessageTextField.text
        messageLabel.textColor = UIColor.redColor()
-    
        enterMessageTextField.text = ""
        enterMessageTextField.resignFirstResponder()
-        
-        maleButton.setTitle("Mail Sent", forState: UIControlState.Normal)
+       maleButton.setTitle("Mail Sent", forState: UIControlState.Normal)
            }
 
 
